@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
       <Head>
-      <title>Vidit Khandelwal's Domains</title>
+      <title>Vidit Khandelwal&apos;s Domains</title>
         <meta
           name="description"
           content="A list of all the currently active domains and subdomains of Vidit Khandelwal"
@@ -46,7 +46,7 @@ export default function Home() {
         <meta property="og:site_name" content="Vidit Khandelwal" />
         <meta
           property="description"
-          content="A list of all the currently active domains and subdomains of Vidit Khandelwal"
+          content="A list of all the currently active domains and subdomains of Vidit Khandelwal"/>
       </Head>
       <MainContainer>
         <MainContent>
