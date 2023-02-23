@@ -3,6 +3,8 @@ import MainContainer from "@/components/MainContainer";
 import MainContent from "@/components/MainContent";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import List from "@/components/List";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   const variants1 = {
@@ -30,7 +32,7 @@ export default function Home() {
       </Head>
       <MainContainer>
         <MainContent>
-          <motion.div className="flex flex-row space-x-4 text-2xl uppercase">
+          <motion.div className="flex flex-row space-x-2 text-2xl uppercase">
             <motion.div
               whileHover="hover"
               variants={variants1}
@@ -49,9 +51,21 @@ export default function Home() {
             </motion.div>
             <h1 className="text-white font-medium">Domains</h1>
           </motion.div>
-          <p className="text-neutral-300">information here may not be completely up to date</p>
+          {/* <div className="flex flex-row space-x-1">
+            <div className="text-cyan-500">This list is</div>
+            <div className="text-cyan-700">(probably)</div>
+            <div className="text-cyan-500">not exhaustive.</div>
+          </div> */}
+          <List />
         </MainContent>
+        <Footer />
       </MainContainer>
     </>
   );
+}
+
+{
+  /* <div className="backdrop-blur-xl bg-black bg-opacity-20 mt-10 mr-10 p-5 rounded-xl text-white w-72">
+            <p>Lorem Ipsum Dolor Sit Amet</p>
+          </div> */
 }
