@@ -30,7 +30,7 @@ export default function Home() {
       </Head>
       <MainContainer>
         <MainContent>
-          <motion.div className="flex flex-row space-x-4 mt-10 ml-10 text-2xl uppercase">
+          <motion.div className="flex flex-row space-x-4 text-2xl uppercase">
             <motion.div
               whileHover="hover"
               variants={variants1}
@@ -49,6 +49,7 @@ export default function Home() {
             </motion.div>
             <h1 className="text-white font-medium">Domains</h1>
           </motion.div>
+          <p className="text-neutral-300">information here may not be completely up to date</p>
         </MainContent>
       </MainContainer>
     </>
