@@ -4,7 +4,7 @@ import ListLink from "./ListLink";
 const List = () => {
   return (
     <div className="text-neutral-900 dark:text-neutral-200">
-      <div className="mt-10 text-2xl font-light">
+      <div className="mt-10 text-2xl font-light lg:mr-0 mr-5">
         <h3>viditkhandelwal.com</h3>
         <p className="text-base">
           my primary domain, used for the most important things.
@@ -54,7 +54,7 @@ const List = () => {
           </p>
         </ListLink>
       </div>
-      <div className="mt-10 text-2xl font-light">
+      <div className="mt-10 text-2xl font-light mr-5">
         <h3>vidit.page</h3>
         <p className="text-base">
           used sometimes, for experimental stuff. usually nothing too important.
@@ -89,7 +89,7 @@ const List = () => {
           </p>
         </ListLink>
       </div>
-      <div className="mt-10 text-2xl font-light">
+      <div className="mt-10 text-2xl font-light mr-5">
         <h3>v-k.pw</h3>
         <p className="text-base">
         a domain exclusively for Vidit Khandelwal’s branded URL shortener service for making links to be shared on social media.
