@@ -39,17 +39,17 @@ export default function Home() {
               className="flex flex-col space-y-1"
             >
               <Link href="https://viditkhandelwal.com">
-                <motion.h1 className="text-white font-light z-10">
+                <motion.h1 className="text-neutral-900 dark:text-neutral-100 font-light z-10">
                   Vidit Khandelwal
                 </motion.h1>
               </Link>
 
               <motion.div
                 variants={variants2}
-                className="border-t border-t-white w-0 z-0 h-1/2 bg-white"
+                className="border-t border-t-neutral-900 dark:border-t-neutral-100 w-0 z-0 h-1/2 bg-neutral-900 dark:bg-neutral-100"
               ></motion.div>
             </motion.div>
-            <h1 className="text-white font-medium">Domains</h1>
+            <h1 className="text-neutral-900 dark:text-neutral-100 font-medium">Domains</h1>
           </motion.div>
           {/* <div className="flex flex-row space-x-1">
             <div className="text-cyan-500">This list is</div>

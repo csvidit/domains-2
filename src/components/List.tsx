@@ -3,7 +3,7 @@ import ListLink from "./ListLink";
 
 const List = () => {
   return (
-    <div className="text-neutral-200">
+    <div className="text-neutral-900 dark:text-neutral-200">
       <div className="mt-10 text-2xl font-light">
         <h3>viditkhandelwal.com</h3>
         <p className="text-base">
@@ -55,7 +55,7 @@ const List = () => {
         </ListLink>
       </div>
       <div className="mt-10 text-2xl font-light">
-        <h3>viditkhandelwal.com</h3>
+        <h3>vidit.page</h3>
         <p className="text-base">
           used sometimes, for experimental stuff. usually nothing too important.
         </p>

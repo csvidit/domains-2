@@ -126,7 +126,6 @@
 
 @media screen and (max-width: 1000px) {
   .main_container {
-    background-image: url("/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
@@ -136,10 +135,23 @@
 
 @media screen and (min-width: 1001px) {
   .main_container {
-    background-image: url("/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     font-family: "Gelion", "sans-serif";
+  }
+}
+
+@media (prefers-color-scheme: dark)
+{
+  .main_background{
+    background-image: url("/background.png");
+  }
+}
+
+@media (prefers-color-scheme: light)
+{
+  .main_background{
+    background-image: url("/background-light.png");
   }
 }
