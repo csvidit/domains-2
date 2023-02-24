@@ -7,14 +7,14 @@ const List = () => {
       <div className="mt-10 text-2xl font-light lg:mr-0 mr-5">
         <h3>viditkhandelwal.com</h3>
         <p className="text-base">
-          my primary domain, used for the most important things.
+          my primary domain, used for the most important things
         </p>
       </div>
       <div className="flex flex-col space-y-2 mt-5">
         <ListLink href="https://snapshot.viditkhandelwal.com">
           <p className="font-base text-lg">snapshot</p>
           <p className="font-light">
-            a daily briefing app. currently under development and invite only.
+            a daily briefing app. currently under development and invite only
           </p>
         </ListLink>
         <ListLink href="https://nyt.viditkhandelwal.com">
@@ -34,7 +34,19 @@ const List = () => {
           <p className="font-base text-lg">acad</p>
           <p className="font-light">
             academic subdomain pertaining to academic papers and essays in
-            Economics, Political Science, Philosophy, and Sociology.
+            Economics, Political Science, Philosophy, and Sociology
+          </p>
+        </ListLink>
+        <ListLink href="https://domains.viditkhandelwal.com">
+          <p className="font-base text-lg">domains</p>
+          <p className="font-light">
+            this website, to list all currently active and important domains and subdomains
+          </p>
+        </ListLink>
+        <ListLink href="https://v2.viditkhandelwal.com">
+          <p className="font-base text-lg">v2</p>
+          <p className="font-light">
+            my upcoming comprehensive portfolio made in next.js
           </p>
         </ListLink>
         <ListLink href="https://coronavirus.viditkhandelwal.com">
@@ -43,7 +55,8 @@ const List = () => {
             subdomain forward for Johns Hopkins Coronavirus Resource Center.
           </p>
         </ListLink>
-        <ListLink href="https://journal.viditkhandelwal.com">
+        
+        {/* <ListLink href="https://journal.viditkhandelwal.com">
           <div className="flex flex-row items-center space-x-4">
             <p className="font-base text-lg">journal</p>
             <p className="text-amber-500 text-xs font-light">inactive</p>
@@ -52,19 +65,19 @@ const List = () => {
           <p className="font-light">
             subdomain forward for all Journal series poems.
           </p>
-        </ListLink>
+        </ListLink> */}
       </div>
       <div className="mt-10 text-2xl font-light mr-5">
         <h3>vidit.page</h3>
         <p className="text-base">
-          used sometimes, for experimental stuff. usually nothing too important.
+          used sometimes, for experimental stuff. usually nothing too important
         </p>
       </div>
       <div className="flex flex-col space-y-2 mt-5">
         <ListLink href="https://jsplayground.vidit.page">
           <p className="font-base text-lg">jsplayground</p>
           <p className="font-light">
-            subdomain forward for Johns Hopkins Coronavirus Resource Center.
+          academic subdomain used for testing JavaScript/JQuery code while learning during an independent study
           </p>
         </ListLink>
         <ListLink href="https://snapshot.vidit.page">
@@ -74,7 +87,7 @@ const List = () => {
             Theory/Queer Lives course.
           </p>
         </ListLink>
-        <ListLink href="https://uc.err.vidit.page">
+        {/* <ListLink href="https://uc.err.vidit.page">
           <p className="font-base text-lg">uc.err</p>
           <p className="font-light">
             error utility page which under construction pages/websites redirect
@@ -87,7 +100,7 @@ const List = () => {
             another error utility page which under construction pages/websites
             redirect to
           </p>
-        </ListLink>
+        </ListLink> */}
       </div>
       <div className="mt-10 text-2xl font-light mr-5">
         <h3>v-k.pw</h3>
@@ -96,12 +109,12 @@ const List = () => {
         </p>
       </div>
       <div className="flex flex-col space-y-2 mt-5">
-      <ListLink href="https://error.v-k.pw">
+      {/* <ListLink href="https://error.v-k.pw">
           <p className="font-base text-lg">error</p>
           <p className="font-light">
           error utility page which the user sees if they enter a short URL that either does not exist or is not used anymore
           </p>
-        </ListLink>
+        </ListLink> */}
       </div>
     </div>
   );
