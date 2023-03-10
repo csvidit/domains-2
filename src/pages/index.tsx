@@ -5,27 +5,13 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import List from "@/components/List";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export default function Home() {
-  const variants1 = {
-    hover: {},
-  };
-
-  const variants2 = {
-    hover: {
-      width: "100%",
-      height: "100%",
-      transition: {
-        type: "tween",
-        ease: "easeInOut",
-      },
-    },
-  };
-
   return (
     <>
       <Head>
-      <title>Vidit Khandelwal&apos;s Domains</title>
+        <title>Vidit Khandelwal&apos;s Domains</title>
         <meta
           name="description"
           content="A list of all the currently active domains and subdomains of Vidit Khandelwal"
@@ -46,29 +32,12 @@ export default function Home() {
         <meta property="og:site_name" content="Vidit Khandelwal" />
         <meta
           property="description"
-          content="A list of all the currently active domains and subdomains of Vidit Khandelwal"/>
+          content="A list of all the currently active domains and subdomains of Vidit Khandelwal"
+        />
       </Head>
       <MainContainer>
+        <Header />
         <MainContent>
-          <motion.div className="flex flex-row space-x-2 text-2xl uppercase">
-            <motion.div
-              whileHover="hover"
-              variants={variants1}
-              className="flex flex-col space-y-1"
-            >
-              <Link href="https://viditkhandelwal.com">
-                <motion.h1 className="text-neutral-900 dark:text-neutral-100 font-light z-10">
-                  Vidit Khandelwal
-                </motion.h1>
-              </Link>
-
-              <motion.div
-                variants={variants2}
-                className="border-t border-t-neutral-900 dark:border-t-neutral-100 w-0 z-0 h-1/2 bg-neutral-900 dark:bg-neutral-100"
-              ></motion.div>
-            </motion.div>
-            <h1 className="text-neutral-900 dark:text-neutral-100 font-medium">Domains</h1>
-          </motion.div>
           {/* <div className="flex flex-row space-x-1">
             <div className="text-cyan-500">This list is</div>
             <div className="text-cyan-700">(probably)</div>
