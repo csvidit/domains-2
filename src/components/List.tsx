@@ -13,16 +13,24 @@ const List = () => {
         </p>
       </div>
       <div className="flex flex-col space-y-2 mt-5">
-      <ListLink href="https://xz.viditkhandelwal.com">
-          <ListItemLabel>xzayvian gpt</ListItemLabel>
+        <ListLink href="https://xz.viditkhandelwal.com">
+          <ListItemLabel>xz</ListItemLabel>
           <ListItemDescription>
-            an ai chatbot based on openai&apos;s gpt-3.5-turbo model
+            xzayvian gpt; an ai chatbot based on openai&apos;s gpt-3.5-turbo
+            model
           </ListItemDescription>
         </ListLink>
         <ListLink href="https://snapshot.viditkhandelwal.com">
           <ListItemLabel>snapshot</ListItemLabel>
           <ListItemDescription>
             a daily briefing app. currently under development and invite only
+          </ListItemDescription>
+        </ListLink>
+        <ListLink href="https://vis.xz.viditkhandelwal.com">
+          <ListItemLabel>vis.xz</ListItemLabel>
+          <ListItemDescription>
+            xzayvian visual gpt; an ai chatbot based on openai&apos;s new gpt-4
+            model
           </ListItemDescription>
         </ListLink>
         <ListLink href="https://nyt.viditkhandelwal.com">
